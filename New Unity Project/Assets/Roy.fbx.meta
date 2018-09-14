@@ -1,0 +1,261 @@
+fileFormatVersion: 2
+guid: 7e6aab3993f46497ea9c2decbac42d22
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: GreatWhiteRGFC1:Dorsal0
+    100002: GreatWhiteRGFC1:Dorsal0_CTRL
+    100004: GreatWhiteRGFC1:Dorsal0_GRP
+    100006: GreatWhiteRGFC1:Dorsal1
+    100008: GreatWhiteRGFC1:Dorsal1_CTRL
+    100010: GreatWhiteRGFC1:Dorsal1_GRP
+    100012: GreatWhiteRGFC1:Dorsal2
+    100014: GreatWhiteRGFC1:Dorsal2_CTRL
+    100016: GreatWhiteRGFC1:Dorsal2_GRP
+    100018: GreatWhiteRGFC1:GreatWhiteShark:GreatWhiteShark:GreatWhiteShark:GreatWhiteShark:transform3
+    100020: GreatWhiteRGFC1:GreatWhiteShark:GreatWhiteShark:GreatWhiteShark:GreatWhiteShark:transform4
+    100022: GreatWhiteRGFC1:GreatWhiteShark:GreatWhiteShark:pCube2
+    100024: GreatWhiteRGFC1:Head
+    100026: GreatWhiteRGFC1:Head_CTRL
+    100028: GreatWhiteRGFC1:Head_GRP
+    100030: GreatWhiteRGFC1:Jaw
+    100032: GreatWhiteRGFC1:Jaw1
+    100034: GreatWhiteRGFC1:Jaw2
+    100036: GreatWhiteRGFC1:Jaw_CTRL
+    100038: GreatWhiteRGFC1:Jaw_GRP
+    100040: GreatWhiteRGFC1:LeftEye
+    100042: GreatWhiteRGFC1:LeftEyeLid
+    100044: GreatWhiteRGFC1:Neck0
+    100046: GreatWhiteRGFC1:Neck0_CTRL
+    100048: GreatWhiteRGFC1:Neck0_GRP
+    100050: GreatWhiteRGFC1:Neck1
+    100052: GreatWhiteRGFC1:Neck1_CTRL
+    100054: GreatWhiteRGFC1:Neck1_GRP
+    100056: GreatWhiteRGFC1:NonKeyable_CTRL
+    100058: GreatWhiteRGFC1:pCube2
+    100060: GreatWhiteRGFC1:Pectoral0_Left
+    100062: GreatWhiteRGFC1:Pectoral0_Left_CTRL
+    100064: GreatWhiteRGFC1:Pectoral0_Left_GRP
+    100066: GreatWhiteRGFC1:Pectoral0_Right
+    100068: GreatWhiteRGFC1:Pectoral0_Right_CTRL
+    100070: GreatWhiteRGFC1:Pectoral0_Right_GRP
+    100072: GreatWhiteRGFC1:Pectoral1_Left
+    100074: GreatWhiteRGFC1:Pectoral1_Left_CTRL
+    100076: GreatWhiteRGFC1:Pectoral1_Left_GRP
+    100078: GreatWhiteRGFC1:Pectoral1_Right
+    100080: GreatWhiteRGFC1:Pectoral1_Right_CTRL
+    100082: GreatWhiteRGFC1:Pectoral1_Right_GRP
+    100084: GreatWhiteRGFC1:Pectoral2_Left
+    100086: GreatWhiteRGFC1:Pectoral2_Left_CTRL
+    100088: GreatWhiteRGFC1:Pectoral2_Left_GRP
+    100090: GreatWhiteRGFC1:Pectoral2_Right
+    100092: GreatWhiteRGFC1:Pectoral2_Right_CTRL
+    100094: GreatWhiteRGFC1:Pectoral2_Right_GRP
+    100096: GreatWhiteRGFC1:RightEye
+    100098: GreatWhiteRGFC1:RightEyeLid
+    100100: GreatWhiteRGFC1:Root
+    100102: GreatWhiteRGFC1:Root_CTRL
+    100104: GreatWhiteRGFC1:Root_GRP
+    100106: GreatWhiteRGFC1:Tail0
+    100108: GreatWhiteRGFC1:Tail1
+    100110: GreatWhiteRGFC1:Tail2
+    100112: GreatWhiteRGFC1:Tail3
+    100114: GreatWhiteRGFC1:Tail4
+    100116: GreatWhiteRGFC1:Tail5
+    100118: GreatWhiteRGFC1:Tail5 1
+    100120: GreatWhiteRGFC1:Tail6
+    100122: GreatWhiteRGFC1:Tail6 1
+    100124: GreatWhiteRGFC1:Tail6GRP
+    100126: GreatWhiteRGFC1:Tail6GRP1
+    100128: GreatWhiteRGFC1:Tail7
+    100130: GreatWhiteRGFC1:Tail7 1
+    100132: GreatWhiteRGFC1:Tail7GRP
+    100134: GreatWhiteRGFC1:TailCTRL0
+    100136: GreatWhiteRGFC1:TailCTRL1
+    100138: GreatWhiteRGFC1:TailCTRL2
+    100140: GreatWhiteRGFC1:TailCTRL3
+    100142: GreatWhiteRGFC1:TailCTRL4
+    100144: GreatWhiteRGFC1:TopGUM_CTRL
+    100146: GreatWhiteRGFC1:TopGums
+    100148: GreatWhiteRGFC1:TopJaw
+    100150: GreatWhiteRGFC1:TopJaw_CTRL
+    100152: GreatWhiteRGFC1:TopJaw_GRP
+    100154: GreatWhiteRGFC1:WhiteShark
+    100156: //RootNode
+    400000: GreatWhiteRGFC1:Dorsal0
+    400002: GreatWhiteRGFC1:Dorsal0_CTRL
+    400004: GreatWhiteRGFC1:Dorsal0_GRP
+    400006: GreatWhiteRGFC1:Dorsal1
+    400008: GreatWhiteRGFC1:Dorsal1_CTRL
+    400010: GreatWhiteRGFC1:Dorsal1_GRP
+    400012: GreatWhiteRGFC1:Dorsal2
+    400014: GreatWhiteRGFC1:Dorsal2_CTRL
+    400016: GreatWhiteRGFC1:Dorsal2_GRP
+    400018: GreatWhiteRGFC1:GreatWhiteShark:GreatWhiteShark:GreatWhiteShark:GreatWhiteShark:transform3
+    400020: GreatWhiteRGFC1:GreatWhiteShark:GreatWhiteShark:GreatWhiteShark:GreatWhiteShark:transform4
+    400022: GreatWhiteRGFC1:GreatWhiteShark:GreatWhiteShark:pCube2
+    400024: GreatWhiteRGFC1:Head
+    400026: GreatWhiteRGFC1:Head_CTRL
+    400028: GreatWhiteRGFC1:Head_GRP
+    400030: GreatWhiteRGFC1:Jaw
+    400032: GreatWhiteRGFC1:Jaw1
+    400034: GreatWhiteRGFC1:Jaw2
+    400036: GreatWhiteRGFC1:Jaw_CTRL
+    400038: GreatWhiteRGFC1:Jaw_GRP
+    400040: GreatWhiteRGFC1:LeftEye
+    400042: GreatWhiteRGFC1:LeftEyeLid
+    400044: GreatWhiteRGFC1:Neck0
+    400046: GreatWhiteRGFC1:Neck0_CTRL
+    400048: GreatWhiteRGFC1:Neck0_GRP
+    400050: GreatWhiteRGFC1:Neck1
+    400052: GreatWhiteRGFC1:Neck1_CTRL
+    400054: GreatWhiteRGFC1:Neck1_GRP
+    400056: GreatWhiteRGFC1:NonKeyable_CTRL
+    400058: GreatWhiteRGFC1:pCube2
+    400060: GreatWhiteRGFC1:Pectoral0_Left
+    400062: GreatWhiteRGFC1:Pectoral0_Left_CTRL
+    400064: GreatWhiteRGFC1:Pectoral0_Left_GRP
+    400066: GreatWhiteRGFC1:Pectoral0_Right
+    400068: GreatWhiteRGFC1:Pectoral0_Right_CTRL
+    400070: GreatWhiteRGFC1:Pectoral0_Right_GRP
+    400072: GreatWhiteRGFC1:Pectoral1_Left
+    400074: GreatWhiteRGFC1:Pectoral1_Left_CTRL
+    400076: GreatWhiteRGFC1:Pectoral1_Left_GRP
+    400078: GreatWhiteRGFC1:Pectoral1_Right
+    400080: GreatWhiteRGFC1:Pectoral1_Right_CTRL
+    400082: GreatWhiteRGFC1:Pectoral1_Right_GRP
+    400084: GreatWhiteRGFC1:Pectoral2_Left
+    400086: GreatWhiteRGFC1:Pectoral2_Left_CTRL
+    400088: GreatWhiteRGFC1:Pectoral2_Left_GRP
+    400090: GreatWhiteRGFC1:Pectoral2_Right
+    400092: GreatWhiteRGFC1:Pectoral2_Right_CTRL
+    400094: GreatWhiteRGFC1:Pectoral2_Right_GRP
+    400096: GreatWhiteRGFC1:RightEye
+    400098: GreatWhiteRGFC1:RightEyeLid
+    400100: GreatWhiteRGFC1:Root
+    400102: GreatWhiteRGFC1:Root_CTRL
+    400104: GreatWhiteRGFC1:Root_GRP
+    400106: GreatWhiteRGFC1:Tail0
+    400108: GreatWhiteRGFC1:Tail1
+    400110: GreatWhiteRGFC1:Tail2
+    400112: GreatWhiteRGFC1:Tail3
+    400114: GreatWhiteRGFC1:Tail4
+    400116: GreatWhiteRGFC1:Tail5
+    400118: GreatWhiteRGFC1:Tail5 1
+    400120: GreatWhiteRGFC1:Tail6
+    400122: GreatWhiteRGFC1:Tail6 1
+    400124: GreatWhiteRGFC1:Tail6GRP
+    400126: GreatWhiteRGFC1:Tail6GRP1
+    400128: GreatWhiteRGFC1:Tail7
+    400130: GreatWhiteRGFC1:Tail7 1
+    400132: GreatWhiteRGFC1:Tail7GRP
+    400134: GreatWhiteRGFC1:TailCTRL0
+    400136: GreatWhiteRGFC1:TailCTRL1
+    400138: GreatWhiteRGFC1:TailCTRL2
+    400140: GreatWhiteRGFC1:TailCTRL3
+    400142: GreatWhiteRGFC1:TailCTRL4
+    400144: GreatWhiteRGFC1:TopGUM_CTRL
+    400146: GreatWhiteRGFC1:TopGums
+    400148: GreatWhiteRGFC1:TopJaw
+    400150: GreatWhiteRGFC1:TopJaw_CTRL
+    400152: GreatWhiteRGFC1:TopJaw_GRP
+    400154: GreatWhiteRGFC1:WhiteShark
+    400156: //RootNode
+    2100000: GreatWhiteRGFC1_GreatWhiteBlinn
+    2300000: GreatWhiteRGFC1:LeftEye
+    2300002: GreatWhiteRGFC1:LeftEyeLid
+    2300004: GreatWhiteRGFC1:RightEye
+    2300006: GreatWhiteRGFC1:RightEyeLid
+    3300000: GreatWhiteRGFC1:LeftEye
+    3300002: GreatWhiteRGFC1:LeftEyeLid
+    3300004: GreatWhiteRGFC1:RightEye
+    3300006: GreatWhiteRGFC1:RightEyeLid
+    4300000: GreatWhiteRGFC1:RightEye
+    4300002: GreatWhiteRGFC1:LeftEye
+    4300004: GreatWhiteRGFC1:RightEyeLid
+    4300006: GreatWhiteRGFC1:LeftEyeLid
+    4300008: GreatWhiteRGFC1:WhiteShark
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: GreatWhiteRGFC1:WhiteShark
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
