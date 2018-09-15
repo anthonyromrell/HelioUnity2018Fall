@@ -6,6 +6,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="EventClass.cs" t="Include" />
+          <e p="IfStatements.cs" t="Include" />
           <e p="NewEvent.cs" t="Include" />
         </e>
       </e>
