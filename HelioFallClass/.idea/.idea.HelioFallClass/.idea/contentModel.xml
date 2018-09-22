@@ -65,10 +65,35 @@
             <e p="ETFXRotation.cs" t="Include" />
           </e>
         </e>
+        <e p="Old London" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="LightBehaviour.cs" t="Include" />
+          </e>
+        </e>
         <e p="Scripts" t="Include">
+          <e p="Animals" t="Include">
+            <e p="Animal.cs" t="Include" />
+            <e p="Dog.cs" t="Include" />
+            <e p="Mammal.cs" t="Include" />
+          </e>
           <e p="EventClass.cs" t="Include" />
+          <e p="GameControl.cs" t="Include" />
+          <e p="Generic" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="ChangeValue.cs" t="Include" />
+              <e p="FloatData.cs" t="Include" />
+              <e p="RandomValue.cs" t="Include" />
+            </e>
+          </e>
           <e p="IfStatements.cs" t="Include" />
-          <e p="NewEvent.cs" t="Include" />
+          <e p="MouseDownBehaviour.cs" t="Include" />
+          <e p="Movements.cs" t="Include" />
+          <e p="ShipStats.cs" t="Include" />
+          <e p="Transfer.cs" t="Include" />
+          <e p="TransformObject.cs" t="Include" />
+        </e>
+        <e p="SpaceCraft 0" t="Include">
+          <e p="Readme.txt" t="Include" />
         </e>
       </e>
       <e p="HelioFallClass.sln" t="IncludeFlat" />

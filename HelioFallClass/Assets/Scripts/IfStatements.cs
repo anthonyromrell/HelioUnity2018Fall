@@ -11,22 +11,36 @@ public class IfStatements : MonoBehaviour
 	
 	public string Password;
 	public bool OnSwitch;
+	public Material LampMaterial;
 	
 	void Update () {
 		
 		if (OnSwitch)
 		{
-			print("The Light is on.");
+			LampMaterial.color = Color.white;
 		}
+		else
+		{
+			LampMaterial.color = Color.black;
+		}
+		
 
 		if (Password == "OU812")
 		{
 			print("Correct Password.");
 		}
+		else
+		{
+			print("Incorrect Password.");
+		}
 
 		if (A + B == C)
 		{
-			print("A pluse B is equal to C.");
+			print("A plus B is equal to C.");
+		}
+		else
+		{
+			print("A plus B is not equal to C.");
 		}		
 	}
 }
