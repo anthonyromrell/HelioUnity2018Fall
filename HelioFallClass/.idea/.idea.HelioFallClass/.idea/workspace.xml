@@ -50,15 +50,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CharacterMover.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CharacterMover.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterMover.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="440">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
-                <marker date="1537670692970" expanded="true" signature="111:764" ph="{...}" />
-                <marker date="1537670692970" expanded="true" signature="336:406" ph="{...}" />
-                <marker date="1537670692970" expanded="true" signature="425:762" ph="{...}" />
+                <marker date="1537670919403" expanded="true" signature="111:945" ph="{...}" />
+                <marker date="1537670919403" expanded="true" signature="336:406" ph="{...}" />
+                <marker date="1537670919403" expanded="true" signature="425:943" ph="{...}" />
+                <marker date="1537670919403" expanded="true" signature="466:827" ph="{...}" />
+                <marker date="1537670919403" expanded="true" signature="749:817" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Counter.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/Counter.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding>
+                <marker date="1537672997101" expanded="true" signature="6:100" ph="..." />
+                <marker date="1537672997101" expanded="true" signature="138:563" ph="{...}" />
+                <marker date="1537672997101" expanded="true" signature="279:561" ph="{...}" />
+                <marker date="1537672997101" expanded="true" signature="346:456" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -98,6 +115,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Instancing/InstancingBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/MouseDownBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/OnTriggerEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Counter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animals/Dog.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animals/Mammal.cs" root0="FORCE_HIGHLIGHTING" />
@@ -134,6 +152,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Instancing/InstancingBase.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/OnTriggerEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character/CharacterMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Counter.cs" />
       </list>
     </option>
   </component>
@@ -475,12 +494,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterMover.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="440">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
-            <marker date="1537670692970" expanded="true" signature="111:764" ph="{...}" />
-            <marker date="1537670692970" expanded="true" signature="336:406" ph="{...}" />
-            <marker date="1537670692970" expanded="true" signature="425:762" ph="{...}" />
+            <marker date="1537670919403" expanded="true" signature="111:945" ph="{...}" />
+            <marker date="1537670919403" expanded="true" signature="336:406" ph="{...}" />
+            <marker date="1537670919403" expanded="true" signature="425:943" ph="{...}" />
+            <marker date="1537670919403" expanded="true" signature="466:827" ph="{...}" />
+            <marker date="1537670919403" expanded="true" signature="749:817" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/Counter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <marker date="1537672997101" expanded="true" signature="6:100" ph="..." />
+            <marker date="1537672997101" expanded="true" signature="138:563" ph="{...}" />
+            <marker date="1537672997101" expanded="true" signature="279:561" ph="{...}" />
+            <marker date="1537672997101" expanded="true" signature="346:456" ph="{...}" />
           </folding>
         </state>
       </provider>
