@@ -71,6 +71,9 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="AI" t="Include">
+            <e p="AIAgent.cs" t="Include" />
+          </e>
           <e p="Animals" t="Include">
             <e p="Animal.cs" t="Include" />
             <e p="Dog.cs" t="Include" />
