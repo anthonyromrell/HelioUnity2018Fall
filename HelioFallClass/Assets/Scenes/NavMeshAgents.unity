@@ -146,7 +146,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 10
+  JumpSpeed: 4
   Gravity: 9.81
+  X: {fileID: 11400000, guid: 9dcc37265565142a4b6cafcf0fb97b4a, type: 2}
+  Y: {fileID: 11400000, guid: 8b9129e51f24842c39e6e59340a38275, type: 2}
+  Z: {fileID: 11400000, guid: 8b9129e51f24842c39e6e59340a38275, type: 2}
+  Rx: {fileID: 11400000, guid: 8b9129e51f24842c39e6e59340a38275, type: 2}
+  Ry: {fileID: 11400000, guid: 8b9129e51f24842c39e6e59340a38275, type: 2}
+  Rz: {fileID: 11400000, guid: 8b9129e51f24842c39e6e59340a38275, type: 2}
 --- !u!143 &104340532
 CharacterController:
   m_ObjectHideFlags: 0
@@ -225,7 +232,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 104340530}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.47, y: 0.56, z: -3.47}
+  m_LocalPosition: {x: -3.92, y: 0.56, z: -3.47}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -328,7 +335,7 @@ Transform:
   m_GameObject: {fileID: 727100009}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 6.5008, y: 6.5008, z: 6.5008}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2

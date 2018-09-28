@@ -70,6 +70,13 @@
             <e p="LightBehaviour.cs" t="Include" />
           </e>
         </e>
+        <e p="Resources" t="Include">
+          <e p="Letters" t="Include">
+            <e p="HoldLetter.cs" t="Include" />
+            <e p="TestLetter.cs" t="Include" />
+          </e>
+          <e p="NameID.cs" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
           <e p="AI" t="Include">
             <e p="AIAgent.cs" t="Include" />
@@ -80,6 +87,7 @@
             <e p="Mammal.cs" t="Include" />
           </e>
           <e p="Behaviours" t="Include">
+            <e p="Draggable.cs" t="Include" />
             <e p="MouseDownBehaviour.cs" t="Include" />
             <e p="OnTriggerEvent.cs" t="Include" />
           </e>
@@ -110,6 +118,8 @@
             <e p="Counter.cs" t="Include" />
           </e>
           <e p="Variables" t="Include">
+            <e p="FieldsAndParameters.cs" t="Include" />
+            <e p="FloatInput.cs" t="Include" />
             <e p="ShipStats.cs" t="Include" />
           </e>
         </e>
