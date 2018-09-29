@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class TestLetter : MonoBehaviour
+public class TestID : MonoBehaviour
 {
-	public NameID thisId;
+	public NameID ID;
 	public UnityEvent OnMatch;
 	
 	void OnTriggerEnter (Collider letterId)
 	{
-		if (thisId == letterId.GetComponent<HoldLetter>().Id)
+		if (ID == letterId.GetComponent<HoldID>().ID)
 		{
-			 OnMatch.Invoke();
+			OnMatch.Invoke();
 		}
 	}
 }

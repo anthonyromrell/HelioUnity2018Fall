@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HoldLetter : MonoBehaviour
+public class HoldID : MonoBehaviour
 {
-	public NameID Id;
+	public NameID ID;
 }
