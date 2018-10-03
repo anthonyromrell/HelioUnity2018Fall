@@ -3,13 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class OnTriggerEvent : MonoBehaviour
+public class StartBehaviour : MonoBehaviour
 {
-
 	public UnityEvent Event;
-	
-	private void OnTriggerEnter(Collider other)
-	{
+
+	void Start () {
 		Event.Invoke();
 	}
 }

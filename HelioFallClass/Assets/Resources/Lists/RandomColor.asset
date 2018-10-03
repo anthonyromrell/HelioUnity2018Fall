@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1765cf93efe874d6d80aac77515db2f5, type: 3}
+  m_Name: RandomColor
+  m_EditorClassIdentifier: 
+  ColorIdList:
+  - {fileID: 11400000, guid: 01e4bdc38a52e4aac8c4ff659be65f8d, type: 2}
+  - {fileID: 11400000, guid: db6339fb40fde46dd9dbea2f5f2f5c81, type: 2}
+  - {fileID: 11400000, guid: 6985aa736746c4d74ab799dabd16a49c, type: 2}
+  - {fileID: 11400000, guid: 19eed68b4675f4d14a72aa05fb0e06ae, type: 2}
+  - {fileID: 11400000, guid: 19eed68b4675f4d14a72aa05fb0e06ae, type: 2}
+  - {fileID: 11400000, guid: 19eed68b4675f4d14a72aa05fb0e06ae, type: 2}
+  RandonColor: {fileID: 11400000, guid: f14474dc8bbc44d979051cfbabfcb383, type: 2}
