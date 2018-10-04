@@ -67,6 +67,9 @@
           <e p="Animals" t="Include">
             <e p="Animal.cs" t="Include" />
             <e p="Dog.cs" t="Include" />
+            <e p="Instancing" t="Include">
+              <e p="InstancingBase.cs" t="Include" />
+            </e>
             <e p="Mammal.cs" t="Include" />
           </e>
           <e p="Basics" t="Include">
@@ -100,6 +103,10 @@
               <e p="MovePatternNotGrounded.cs" t="Include" />
             </e>
           </e>
+          <e p="Color" t="Include">
+            <e p="ChangeSpriteColor.cs" t="Include" />
+            <e p="ColorID.cs" t="Include" />
+          </e>
           <e p="Counter" t="Include">
             <e p="RunCountDown.cs" t="Include" />
           </e>
@@ -130,32 +137,18 @@
           <e p="Instancing" t="Include">
             <e p="InstanceObject.cs" t="Include" />
           </e>
+          <e p="Objects" t="Include">
+            <e p="NameID.cs" t="Include" />
+          </e>
           <e p="Random" t="Include">
+            <e p="RandomColor.cs" t="Include" />
+            <e p="RandomObjectHandler.cs" t="Include" />
+            <e p="RandomObjectSelector.cs" t="Include" />
             <e p="RandomValue.cs" t="Include" />
           </e>
           <e p="Transforming" t="Include">
             <e p="Movements.cs" t="Include" />
             <e p="TransformObject.cs" t="Include" />
-          </e>
-        </e>
-        <e p="RandomColor.cs" t="Include" />
-        <e p="Resources" t="Include">
-          <e p="Letters" t="Include">
-            <e p="HoldID.cs" t="Include" />
-            <e p="TestID.cs" t="Include" />
-          </e>
-          <e p="NameID.cs" t="Include" />
-        </e>
-        <e p="Scripts" t="Include">
-          <e p="ColorChange.cs" t="Include" />
-          <e p="ColorID.cs" t="Include" />
-          <e p="Generic" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="ChangeValue.cs" t="Include" />
-            </e>
-          </e>
-          <e p="Instancing" t="Include">
-            <e p="InstancingBase.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
             <e p="Counter.cs" t="Include" />
@@ -166,8 +159,16 @@
             <e p="ShipStats.cs" t="Include" />
           </e>
         </e>
-        <e p="SpaceCraft 0" t="Include">
-          <e p="Readme.txt" t="Include" />
+        <e p="Game" t="Include">
+          <e p="Resources" t="Include">
+            <e p="Letters" t="Include">
+              <e p="HoldID.cs" t="Include" />
+              <e p="TestID.cs" t="Include" />
+            </e>
+          </e>
+          <e p="SpaceCraft 0" t="Include">
+            <e p="Readme.txt" t="Include" />
+          </e>
         </e>
       </e>
       <e p="HelioFallClass.sln" t="IncludeFlat" />

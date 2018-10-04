@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: ad1d501dc21a54fd9bf32c4ba519a0fd
+guid: 2058f4de8a75147ac923c1db387609bb
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Bottle
-    21300002: PopCan
-    21300004: BeanCan
-    21300006: StarrFish1
-    21300008: StarFish2
-    21300010: Tire
-    21300012: StarFish3
+    21300000: Ring
+    21300002: Dot
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -102,141 +97,41 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bottle
+      name: Ring
       rect:
         serializedVersion: 2
-        x: 11
-        y: 900
-        width: 249
-        height: 77
+        x: 6
+        y: 217
+        width: 288
+        height: 288
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4a296be4cc824f0badfbc55c8f7a8c0
+      spriteID: cdb5ef7efa5e4496a8b96e5b0f4601fb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PopCan
+      name: Dot
       rect:
         serializedVersion: 2
-        x: 290
-        y: 890
-        width: 160
-        height: 90
+        x: 303
+        y: 4
+        width: 204
+        height: 204
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a743c6cdb6da4ddc9f011f25538350a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BeanCan
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 869
-        width: 160
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd7b9d342d7504ea8b8928fe856ac464
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StarrFish1
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 757
-        width: 140
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3560cffdc0009467f9570ecfd5eb1e7c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StarFish2
-      rect:
-        serializedVersion: 2
-        x: 169
-        y: 725
-        width: 300
-        height: 127
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 63990b56620e048c2a3fc1471c9342ae
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tire
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 379
-        width: 500
-        height: 318
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3bb5d8438c844c37b3f6a0cea8ac16f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StarFish3
-      rect:
-        serializedVersion: 2
-        x: 486
-        y: 725
-        width: 263
-        height: 127
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c463579c67e494fe48c559cdeba710ee
+      spriteID: e7d563b1a8ee64c658fd7b2fea8f36f8
       vertices: []
       indices: 
       edges: []
@@ -244,7 +139,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: ac36a2721958c4176abf4a5f3164019e
+    spriteID: abf9098907436401eaa30d0bce83efe1
     vertices: []
     indices: 
     edges: []

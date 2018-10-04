@@ -7,27 +7,27 @@ TextureImporter:
     21300004: C
     21300006: D
     21300008: E
-    21300010: ALPHABET_5
-    21300012: ALPHABET_6
-    21300014: ALPHABET_7
-    21300016: ALPHABET_8
-    21300018: ALPHABET_9
-    21300020: ALPHABET_10
-    21300022: ALPHABET_11
-    21300024: ALPHABET_12
-    21300026: ALPHABET_13
-    21300028: ALPHABET_14
-    21300030: ALPHABET_15
-    21300032: ALPHABET_16
-    21300034: ALPHABET_17
-    21300036: ALPHABET_18
-    21300038: ALPHABET_19
-    21300040: ALPHABET_20
-    21300042: ALPHABET_21
-    21300044: ALPHABET_22
-    21300046: ALPHABET_23
-    21300048: ALPHABET_24
-    21300050: ALPHABET_25
+    21300010: F
+    21300012: G
+    21300014: H
+    21300016: I
+    21300018: J
+    21300020: K
+    21300022: L
+    21300024: M
+    21300026: N
+    21300028: O
+    21300030: P
+    21300032: Q
+    21300034: R
+    21300036: S
+    21300038: T
+    21300040: U
+    21300042: V
+    21300044: W
+    21300046: X
+    21300048: Y
+    21300050: Z
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -221,7 +221,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALPHABET_5
+      name: F
       rect:
         serializedVersion: 2
         x: 1681
@@ -241,7 +241,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALPHABET_6
+      name: G
       rect:
         serializedVersion: 2
         x: 39
@@ -261,7 +261,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALPHABET_7
+      name: H
       rect:
         serializedVersion: 2
         x: 440
@@ -281,7 +281,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALPHABET_8
+      name: I
       rect:
         serializedVersion: 2
         x: 817
@@ -301,7 +301,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALPHABET_9
+      name: J
       rect:
         serializedVersion: 2
         x: 991
@@ -321,11 +321,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALPHABET_10
+      name: K
       rect:
         serializedVersion: 2
         x: 1278
-        y: 1374
+        y: 1377
         width: 251
         height: 267
       alignment: 0
@@ -341,7 +341,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALPHABET_11
+      name: L
       rect:
         serializedVersion: 2
         x: 1624
@@ -361,11 +361,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALPHABET_12
+      name: M
       rect:
         serializedVersion: 2
         x: 32
-        y: 1000
+        y: 1003
         width: 326
         height: 267
       alignment: 0
@@ -381,7 +381,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALPHABET_13
+      name: N
       rect:
         serializedVersion: 2
         x: 471
@@ -401,7 +401,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALPHABET_14
+      name: O
       rect:
         serializedVersion: 2
         x: 853
@@ -421,7 +421,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALPHABET_15
+      name: P
       rect:
         serializedVersion: 2
         x: 1259
@@ -441,7 +441,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALPHABET_16
+      name: Q
       rect:
         serializedVersion: 2
         x: 1560
@@ -461,7 +461,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALPHABET_17
+      name: R
       rect:
         serializedVersion: 2
         x: 50
@@ -481,7 +481,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALPHABET_18
+      name: S
       rect:
         serializedVersion: 2
         x: 343
@@ -501,7 +501,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALPHABET_19
+      name: T
       rect:
         serializedVersion: 2
         x: 635
@@ -521,7 +521,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALPHABET_20
+      name: U
       rect:
         serializedVersion: 2
         x: 936
@@ -541,7 +541,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALPHABET_21
+      name: V
       rect:
         serializedVersion: 2
         x: 1269
@@ -561,7 +561,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALPHABET_22
+      name: W
       rect:
         serializedVersion: 2
         x: 1612
@@ -581,7 +581,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALPHABET_23
+      name: X
       rect:
         serializedVersion: 2
         x: 16
@@ -601,7 +601,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALPHABET_24
+      name: Y
       rect:
         serializedVersion: 2
         x: 342
@@ -621,7 +621,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ALPHABET_25
+      name: Z
       rect:
         serializedVersion: 2
         x: 658
