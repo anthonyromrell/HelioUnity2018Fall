@@ -256,45 +256,56 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &871909043
+--- !u!1 &690089172
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 871909051}
-  - component: {fileID: 871909050}
-  - component: {fileID: 871909049}
-  - component: {fileID: 871909048}
-  - component: {fileID: 871909047}
-  - component: {fileID: 871909046}
-  - component: {fileID: 871909045}
-  - component: {fileID: 871909044}
-  m_Layer: 0
-  m_Name: Random
+  - component: {fileID: 690089179}
+  - component: {fileID: 690089178}
+  - component: {fileID: 690089177}
+  - component: {fileID: 690089176}
+  - component: {fileID: 690089175}
+  - component: {fileID: 690089174}
+  - component: {fileID: 690089173}
+  m_Layer: 10
+  m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &871909044
+--- !u!114 &690089173
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 871909043}
+  m_GameObject: {fileID: 690089172}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e96ec0ac63d44a60802d4164a3c201d, type: 3}
+  m_Script: {fileID: 11500000, guid: c2d6d3e2b21734997825113d959e408e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &871909045
+  ChangeColor: {fileID: 11400000, guid: b87a4c11d22624b219dc101787c44138, type: 2}
+--- !u!114 &690089174
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 871909043}
+  m_GameObject: {fileID: 690089172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39afe1d2563bb428ebc54b17fc697fa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &690089175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 690089172}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0759e17a5a17b42ccbf0e34c4b8c10b5, type: 3}
@@ -303,13 +314,12 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 871909044}
+      - m_Target: {fileID: 11400000, guid: b87a4c11d22624b219dc101787c44138, type: 2}
         m_MethodName: Invoke
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: f14474dc8bbc44d979051cfbabfcb383,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: ColorID, Assembly-CSharp
+          m_ObjectArgument: {fileID: 690089178}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -317,40 +327,12 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &871909046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 871909043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b2b96f28de3c47f795efe1120cb09be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1218133904}
-        m_MethodName: Invoke
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: f14474dc8bbc44d979051cfbabfcb383,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: ColorID, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!54 &871909047
+--- !u!54 &690089176
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 871909043}
+  m_GameObject: {fileID: 690089172}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -360,35 +342,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &871909048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 871909043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1dfe6f3439a54cf7ba31a3e6c7f82cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!65 &871909049
+--- !u!65 &690089177
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 871909043}
+  m_GameObject: {fileID: 690089172}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 2.04, y: 2.04, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!212 &871909050
+--- !u!212 &690089178
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 871909043}
+  m_GameObject: {fileID: 690089172}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -429,14 +400,102 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &871909051
+--- !u!4 &690089179
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 871909043}
+  m_GameObject: {fileID: 690089172}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.87, y: -2.32, z: 0}
+  m_LocalPosition: {x: 10.05, y: -0.59, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &831369973
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 831369976}
+  - component: {fileID: 831369975}
+  - component: {fileID: 831369974}
+  m_Layer: 9
+  m_Name: A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &831369974
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 831369973}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.11, y: 2.67, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!212 &831369975
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 831369973}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 4ca4fad17d51e459db610fd655b51093, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.11, y: 2.67}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &831369976
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 831369973}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.4, y: 3.83, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -452,8 +511,7 @@ GameObject:
   - component: {fileID: 1218133903}
   - component: {fileID: 1218133902}
   - component: {fileID: 1218133901}
-  - component: {fileID: 1218133904}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -525,23 +583,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1218133900}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.4963293, y: -2.0029876, z: 0}
+  m_LocalPosition: {x: -4.22, y: 0.41, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1218133904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1218133900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e96ec0ac63d44a60802d4164a3c201d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1548262253
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,12 +599,11 @@ GameObject:
   - component: {fileID: 1548262258}
   - component: {fileID: 1548262257}
   - component: {fileID: 1548262256}
-  - component: {fileID: 1548262255}
   - component: {fileID: 1548262254}
-  - component: {fileID: 1548262261}
   - component: {fileID: 1548262260}
   - component: {fileID: 1548262259}
-  m_Layer: 0
+  - component: {fileID: 1548262255}
+  m_Layer: 10
   m_Name: Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -587,9 +633,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1548262253}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1dfe6f3439a54cf7ba31a3e6c7f82cf, type: 3}
+  m_Script: {fileID: 11500000, guid: c2d6d3e2b21734997825113d959e408e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ChangeColor: {fileID: 11400000, guid: 87a04389d123d4c64836abbc4c81fa6a, type: 2}
 --- !u!65 &1548262256
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -669,7 +716,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1548262253}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e96ec0ac63d44a60802d4164a3c201d, type: 3}
+  m_Script: {fileID: 11500000, guid: 39afe1d2563bb428ebc54b17fc697fa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1548262260
@@ -686,41 +733,12 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1548262259}
+      - m_Target: {fileID: 11400000, guid: 87a04389d123d4c64836abbc4c81fa6a, type: 2}
         m_MethodName: Invoke
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 01e4bdc38a52e4aac8c4ff659be65f8d,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: ColorID, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &1548262261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1548262253}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b2b96f28de3c47f795efe1120cb09be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1218133904}
-        m_MethodName: Invoke
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 01e4bdc38a52e4aac8c4ff659be65f8d,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: ColorID, Assembly-CSharp
+          m_ObjectArgument: {fileID: 1548262257}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

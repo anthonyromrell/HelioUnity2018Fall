@@ -90,6 +90,7 @@
             <e p="Trigger.cs" t="Include" />
             <e p="TriggerEnterEvent.cs" t="Include" />
             <e p="TriggerEvent.cs" t="Include" />
+            <e p="TriggerInvoke.cs" t="Include" />
             <e p="UpdateEvent.cs" t="Include" />
           </e>
           <e p="Character" t="Include">
