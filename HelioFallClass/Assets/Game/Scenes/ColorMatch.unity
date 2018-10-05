@@ -288,7 +288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2d6d3e2b21734997825113d959e408e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChangeColor: {fileID: 11400000, guid: b87a4c11d22624b219dc101787c44138, type: 2}
+  InvokeObject: {fileID: 11400000, guid: bc0a5d9f2ef6a4dce889687a783b7fbd, type: 2}
 --- !u!114 &690089174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -300,6 +300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39afe1d2563bb428ebc54b17fc697fa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CanDrag: 0
 --- !u!114 &690089175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -636,7 +637,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2d6d3e2b21734997825113d959e408e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChangeColor: {fileID: 11400000, guid: 87a04389d123d4c64836abbc4c81fa6a, type: 2}
+  InvokeObject: {fileID: 0}
 --- !u!65 &1548262256
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -719,6 +720,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39afe1d2563bb428ebc54b17fc697fa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CanDrag: 0
 --- !u!114 &1548262260
 MonoBehaviour:
   m_ObjectHideFlags: 0
