@@ -1,8 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Experimental.Objects;
 using UnityEngine;
 
-public class HoldID : MonoBehaviour
+namespace Game.Resources.Letters
 {
-	public NameID ID;
+	public class HoldID : MonoBehaviour
+	{
+		public NameID ID;
+	}
 }

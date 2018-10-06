@@ -1,18 +1,20 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Experimental.Objects;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class TestID : MonoBehaviour
+namespace Game.Resources.Letters
 {
-	public NameID ID;
-	public UnityEvent OnMatch;
-	
-	void OnTriggerEnter (Collider letterId)
+	public class TestID : MonoBehaviour
 	{
-		if (ID == letterId.GetComponent<HoldID>().ID)
+		public NameID ID;
+		public UnityEvent OnMatch;
+	
+		void OnTriggerEnter (Collider letterId)
 		{
-			OnMatch.Invoke();
+			if (ID == letterId.GetComponent<HoldID>().ID)
+			{
+				OnMatch.Invoke();
+			}
 		}
 	}
 }
