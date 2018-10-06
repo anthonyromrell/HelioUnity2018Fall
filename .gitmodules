@@ -10,3 +10,6 @@
 [submodule "HelioFallClass/Assets/ArtisanDream.Experimental"]
 	path = HelioFallClass/Assets/ArtisanDream.Experimental
 	url = https://github.com/anthonyromrell/ArtisanDream.Experimental.git
+[submodule "HelioFallClass/Assets/Unity.Basics"]
+	path = HelioFallClass/Assets/Unity.Basics
+	url = https://github.com/anthonyromrell/Unity.Basics.git
