@@ -4,3 +4,9 @@
 [submodule "HelioFallClass/Assets/ArtisanDream"]
 	path = HelioFallClass/Assets/ArtisanDream
 	url = https://github.com/anthonyromrell/Tools.git
+[submodule "HelioFallClass/Assets/ArtisanDream.Legacy"]
+	path = HelioFallClass/Assets/ArtisanDream.Legacy
+	url = https://github.com/anthonyromrell/ArtisanDream.Legacy.git
+[submodule "HelioFallClass/Assets/Unity.CSharp.Basics"]
+	path = HelioFallClass/Assets/Unity.CSharp.Basics
+	url = https://github.com/anthonyromrell/Unity.CSharp.Basics.git
