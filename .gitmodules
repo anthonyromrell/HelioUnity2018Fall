@@ -1,9 +1,6 @@
 [submodule "HelioFallClass/Assets/Experimental"]
 	path = HelioFallClass/Assets/Experimental
 	url = https://github.com/anthonyromrell/Experimental.git
-[submodule "HelioFallClass/Assets/ArtisanDream"]
-	path = HelioFallClass/Assets/ArtisanDream
-	url = https://github.com/anthonyromrell/Tools.git
 [submodule "HelioFallClass/Assets/ArtisanDream.Legacy"]
 	path = HelioFallClass/Assets/ArtisanDream.Legacy
 	url = https://github.com/anthonyromrell/ArtisanDream.Legacy.git
