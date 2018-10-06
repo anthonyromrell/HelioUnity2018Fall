@@ -4,9 +4,6 @@
 [submodule "HelioFallClass/Assets/Unity.CSharp.Basics"]
 	path = HelioFallClass/Assets/Unity.CSharp.Basics
 	url = https://github.com/anthonyromrell/Unity.CSharp.Basics.git
-[submodule "HelioFallClass/Assets/ArtisanDream.Experimental"]
-	path = HelioFallClass/Assets/ArtisanDream.Experimental
-	url = https://github.com/anthonyromrell/ArtisanDream.Experimental
 [submodule "HelioFallClass/Assets/ArtisanDream.Tools"]
 	path = HelioFallClass/Assets/ArtisanDream.Tools
 	url = http://github.com/anthonyromrell/ArtisanDream.Tools
