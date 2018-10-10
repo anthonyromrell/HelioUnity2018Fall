@@ -13,3 +13,9 @@
 [submodule "HelioFallClass/Assets/Unity.Basics"]
 	path = HelioFallClass/Assets/Unity.Basics
 	url = https://github.com/anthonyromrell/Unity.Basics.git
+[submodule "HelioFallClass/Assets/NavMeshComponents"]
+	path = HelioFallClass/Assets/NavMeshComponents
+	url = https://github.com/Unity-Technologies/NavMeshComponents.git
+[submodule "HelioFallClass/Assets/AI"]
+	path = HelioFallClass/Assets/AI
+	url = https://github.com/anthonyromrell/AI.git
