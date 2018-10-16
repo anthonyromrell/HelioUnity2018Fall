@@ -3,8 +3,8 @@ using UnityEngine;
 
 namespace Game.Resources.Letters
 {
-	public class HoldID : MonoBehaviour
+	public class HoldId : MonoBehaviour
 	{
-		public NameID ID;
+		public NameId Id;
 	}
 }

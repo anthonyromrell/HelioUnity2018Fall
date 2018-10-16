@@ -4,14 +4,14 @@ using UnityEngine.Events;
 
 namespace Game.Resources.Letters
 {
-	public class TestID : MonoBehaviour
+	public class TestId : MonoBehaviour
 	{
-		public NameID ID;
+		public NameId Id;
 		public UnityEvent OnMatch;
 	
 		void OnTriggerEnter (Collider letterId)
 		{
-			if (ID == letterId.GetComponent<HoldID>().ID)
+			if (Id == letterId.GetComponent<HoldId>().Id)
 			{
 				OnMatch.Invoke();
 			}
